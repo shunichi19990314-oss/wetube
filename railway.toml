@@ -1,0 +1,10 @@
+# Alternative to railway.json (Railway reads either). Keeps Nixpacks users happy too.
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "node src/index.js"
+healthcheckPath = "/healthz"
+healthcheckTimeout = 120
+restartPolicyType = "ON_FAILURE"
