@@ -6,6 +6,12 @@ URL構成・API・画面構成・操作性（テーマ切替、シアターモ�
 > **実装方針**: 参照サイトの CSS / JS / HTML は一切コピーしていません。挙動とAPI形状を観測し、同等の機能を独自コードで実装しています。ブランド名・ロゴは `BRAND_NAME` / `public/images/logo.png` で差し替え可能（既定は "WeTube"）。
 
 ---
+## 🌐 English
+
+**WeTube** - a YouTube-style self-hosted client written from scratch with **Node SSR + vanilla JavaScript**: search, watch, Shorts, and live chat, without any heavy client framework.
+
+- Server-side rendered pages and a lightweight vanilla JS frontend
+- Search / watch / Shorts / live-chat support
 
 ## 1. 対応機能
 
